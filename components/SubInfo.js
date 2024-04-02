@@ -16,7 +16,7 @@ export const EthPrice = ({ price}) => {
     <View style={{ flexDirection: "row", alignItems: "center"}}>
       <Image
         source={assets.eth}
-        resizeMode='contaion'
+        resizeMode="contain"
         style={{ width: 20, height: 20, marginRight: 2}}
       />
       <Text style={{
